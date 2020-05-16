@@ -1,0 +1,18 @@
+1. Interface named Person  has the methods public String getName(); and public String getDetails();
+
+2. Abstract class named PersonBaseImpl implements the Person interface
+	a. Has the attribute String name that is inherited
+	b. It has a constructor which takes the input of String name and initializes the name attribute
+	c. Implements getName method
+
+3. The Interface Teacher extends Person with public String teachesFor(); method
+
+4. Class named TeacherImpl extends PersonBaseImpl which implements the Teacher interface
+
+5. The interface Student extends Person with public String studiesFor(); method
+
+6. The class StudentImpl extends PersonBase and implements the Student interace
+
+7. The class MainEntry has a static main method.
+	a. The local variables  Person p1, p2, Teacher T, and Student S are in the main method
+	b. A System.out.println statement prints the name of p1 and p2.	
